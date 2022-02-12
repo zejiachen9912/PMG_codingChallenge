@@ -44,7 +44,7 @@ def csvCombiner(*files):
         master_file = master_file.append(input_file)
 
 
-
+    # stdout our combined dataframe
     master_file.to_csv(sys.stdout, index=False)
 
 
